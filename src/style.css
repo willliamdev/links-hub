@@ -1,0 +1,68 @@
+:root {
+  --background: #121214;
+  --blue: #009FB7;
+  --yellow: #FED766;
+  --red: #FE4A49;
+  --gray: #c6c6c6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: #F4F4F8;
+  font-family: 'Fira Code', monospace;
+  width: 100vw;
+  height: 100vh;
+}
+
+div.container {
+  margin: auto;
+  width: min(80%, 900px);
+  height: 100%;
+  /* background-color: #474849; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+a.card {
+  text-decoration: none;
+  width: 100%;
+  border: 3px solid var(--gray);
+  color: inherit;
+  padding: 10px;
+  border-radius: 6px;
+  transition: 250ms;
+  margin-bottom: 30px;
+  text-align: center;
+  transition: 250ms;
+
+}
+
+a.car img {
+  height: 20px;
+}
+
+a:hover {
+  color: var(--background);
+  font-size: 14pt;
+  background-color: var(--gray);
+}
