@@ -41,17 +41,18 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 a.card {
   text-decoration: none;
-  width: 100%;
+  width: min(400px, 90%);
   border: 3px solid var(--gray);
   color: inherit;
   padding: 10px;
   border-radius: 6px;
   transition: 250ms;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
   transition: 250ms;
 
